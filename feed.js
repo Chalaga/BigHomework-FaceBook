@@ -29,6 +29,7 @@ function addtoLocalStorage() {
 }
 
 function updatePage() {
+    const dateoftoday = new Date();
     section.innerHTML = posts.map(post => `
         <div class="box">
             <div class="top">
@@ -36,7 +37,7 @@ function updatePage() {
                     <div class="profilePic"></div>
                     <div class="name">
                         <h1>${user.name} ${user.lastname}</h1>
-                        <p>posted 10 days ago</p>
+                        <p>${dateoftoday}</p>
                     </div>
                 </div>
                 <div class="delete" onclick="deletePost('${post}')">X</div>

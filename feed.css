@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    background-color: rgb(240, 242, 245);
+}
+
+main{
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+    width: calc(100% - 30px);
+    background-color: white;
+    padding: 12px 16px 10px;
+    margin: 10px 10px 0px 20px;
+
+}
+
+.profilePic{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-image: url("https://media.istockphoto.com/id/1495088043/vector/user-profile-icon-avatar-or-person-icon-profile-picture-portrait-symbol-default-portrait.jpg?s=612x612&w=0&k=20&c=dhV2p1JwmloBTOaGAtaA3AW1KSnjsdMt7-U_3EZElZ0=");
+    background-size: 150%;
+    background-position: center;
+}
+
+input{
+    display: flex;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(240, 242, 245);
+    margin-left: 12px;
+    height: 40px;
+    width: 100%;
+    padding: 8px 12px;
+}
+
+.inpt{
+    width: calc(100% - 50px);
+}
+
+input::placeholder, input[type=text]{
+    font-size: 17px;
+}
+
+input:focus{
+    outline: none;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: calc(100% - 30px);
+    
+}
+
+h1{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: white;
+    padding: 12px 16px 10px;
+    margin: 10px 10px 0px 20px;
+}
+.top{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.group{
+    display: flex;
+    gap: 15px;
+}
+
+h2{
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.post{
+    margin: 20px 0 40px;
+}
+
+.react{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0 5px;
+}
+
+h3{
+    opacity: 0.7;
+}
+
+.delete:hover, h3{
+    cursor: pointer;
+}

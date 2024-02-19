@@ -81,7 +81,7 @@ input {
 }
 
 .register {
-    width: 219px;
+    /* width: 219px; */
     background-color: #42b72a;
     color: white;
     font-weight: 600;
